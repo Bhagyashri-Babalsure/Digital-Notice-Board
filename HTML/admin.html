@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login - Digital Notice Board</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+    <header>
+        <h2>📢 Digital Notice Board</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="display.html">Notices</a>
+        </nav>
+    </header>
+
+    <section class="login-section">
+        <div class="login-box">
+
+            <h1>Admin Login</h1>
+            <p>Login to manage college notices</p>
+
+            <form id="loginForm">
+
+                <label>Email Address</label>
+                <input type="email" id="email"
+                       placeholder="Enter admin email" required>
+
+                <label>Password</label>
+                <input type="password" id="password"
+                       placeholder="Enter password" required>
+
+                <button type="submit" class="login-btn">
+                    Login
+                </button>
+
+            </form>
+
+            <p id="message"></p>
+
+            <a href="index.html" class="back-link">
+                ← Back to Home
+            </a>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Digital Notice Board | All Rights Reserved</p>
+    </footer>
+
+    <script src="../JS/admin.js"></script>
+
+</body>
+</html>
